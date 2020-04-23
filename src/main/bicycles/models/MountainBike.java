@@ -1,5 +1,6 @@
 package main.bicycles.models;
 import main.bicycles.BicycleBase;
+import main.bicycles.BicycleType;
 
 public class MountainBike extends BicycleBase {
     public void  accelerate() {
@@ -7,5 +8,9 @@ public class MountainBike extends BicycleBase {
     }
     public void brake() {
         this.changeSpeed(-3);
+    }
+    
+    public BicycleType getBicycleType() {
+        return BicycleType.MountainBike;
     }
 }

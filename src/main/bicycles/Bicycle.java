@@ -5,4 +5,5 @@ public interface Bicycle {
     public void accelerate();;
     public void brake();
     public void stop();
+    BicycleType getBicycleType();
 }

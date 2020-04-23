@@ -18,7 +18,6 @@ public class BikeRideTwo implements BikeRide {
    public void ride() {
       bicycle.accelerate();
       bicycle.accelerate();
-      System.out.println("ride() METHOD BikeRideTwo-Currrent speed: = " + bicycle.currentSpeed());
    }
    
    public void ride(Bicycle bicycle) {
@@ -34,8 +33,6 @@ public class BikeRideTwo implements BikeRide {
       bicycle.accelerate();
       bicycle.accelerate();
       bicycle.accelerate();
-      
-      System.out.println("ride(Bicycle bicycle) METHOD BikeRideTwo-Currrent speed: = " + bicycle.currentSpeed());
    }
 }
 ;

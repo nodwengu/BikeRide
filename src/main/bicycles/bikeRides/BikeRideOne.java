@@ -19,13 +19,10 @@ public class BikeRideOne implements BikeRide {
       bicycle.accelerate();
       bicycle.accelerate();
       bicycle.brake();
-      //System.out.println("ride() METHOD BikeRideTedo-Currrent speed: = " + bicycle.currentSpeed());
    }
    
    public void ride(Bicycle bicycle) {
       bicycle.accelerate();
       bicycle.accelerate();
-     
-   //   System.out.println("ride(Bicycle bicycle) METHOD BikeRideTedo-Currrent speed: = ....." + bicycle.currentSpeed());
    }
 }
