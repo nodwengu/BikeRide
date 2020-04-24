@@ -21,8 +21,8 @@ public class BikeRideOne implements BikeRide {
       bicycle.brake();
    }
    
-   public void ride(Bicycle bicycle) {
-      bicycle.accelerate();
-      bicycle.accelerate();
-   }
+//   public void ride(Bicycle bicycle) {
+//      bicycle.accelerate();
+//      bicycle.accelerate();
+//   }
 }

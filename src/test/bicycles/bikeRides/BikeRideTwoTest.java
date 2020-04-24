@@ -19,7 +19,7 @@ public class BikeRideTwoTest {
       BikeRideTwo bikeRideTwo = new BikeRideTwo(mountainBike1);
       bikeRideTwo.ride();
       Assertions.assertEquals( 10, mountainBike1.currentSpeed());
-      
+
       //Road Bike
       RoadBike roadBike1 = new RoadBike();
       BikeRideTwo bikeRideOne2 = new BikeRideTwo(roadBike1);
@@ -33,24 +33,4 @@ public class BikeRideTwoTest {
       Assertions.assertEquals(24, tendem.currentSpeed());
    }
    
-   @Test
-   void testRide() {
-      //Mountain Bike
-      MountainBike mountainBike1 = new MountainBike();
-      BikeRideTwo bikeRideOne1 = new BikeRideTwo(mountainBike1);
-      bikeRideOne1.ride(mountainBike1);
-      Assertions.assertEquals( 60, mountainBike1.currentSpeed());
-
-      //Road Bike
-      RoadBike roadBike1 = new RoadBike();
-      BikeRideTwo bikeRideOne2 = new BikeRideTwo(roadBike1);
-      bikeRideOne2.ride(roadBike1);
-      Assertions.assertEquals(132, roadBike1.currentSpeed());
-
-      //Tandem Bike
-      Tendem tendem = new Tendem();
-      BikeRideTwo bikeRideOne3 = new BikeRideTwo(tendem);
-      bikeRideOne3.ride(tendem);
-      Assertions.assertEquals(144, tendem.currentSpeed());
-   }
 }

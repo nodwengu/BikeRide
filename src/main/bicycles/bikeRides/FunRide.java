@@ -1,38 +1,43 @@
 package main.bicycles.bikeRides;
 
-import main.bicycles.Bicycle;
-
+import main.bicycles.BikeRide;
+import main.bicycles.specification.BicycleFromSpec;
 import main.bicycles.BicycleType;
 
+import javax.swing.*;
 import java.util.ArrayList;
 
 public class FunRide {
-   private ArrayList<Bicycle> bicycleArrayList = new ArrayList<Bicycle>();
+   private ArrayList<BicycleFromSpec> bicycleFromSpecArrayList = new ArrayList<BicycleFromSpec>();
    private int maxNumberOfBikes;
    
    public FunRide(int maxNumberOfBikes) {
       this.maxNumberOfBikes = maxNumberOfBikes;
    }
 
-   public int getCountForType(BicycleType bikeType) {
+   public int getCountForType(BicycleType bicycleType) {
       int bicycleTypeCounter = 0;
-      
-      for(Bicycle bicycle: bicycleArrayList) {
-         if(bicycle.getBicycleType() == bikeType)
+
+      for(BicycleFromSpec bicycle: bicycleFromSpecArrayList) {
+         if(bicycle.getBicycleType() == bicycleType)
             bicycleTypeCounter++;
       }
       return bicycleTypeCounter;
    }
    
-   public void accept(Bicycle bicycle){
-    if( bicycleArrayList.size() < maxNumberOfBikes)
-         bicycleArrayList.add(bicycle);
+   public void accept(BicycleFromSpec bicycleFromSpec) {
+      if( (bicycleFromSpecArrayList.size() < maxNumberOfBikes) && !(bicycleFromSpecArrayList.contains(bicycleFromSpec)) )
+         bicycleFromSpecArrayList.add(bicycleFromSpec);
       else
-         System.out.println("NotAdded: Error message");
+         System.out.println("NotAdded: Enough bicycles or already exists");
    }
-   
    
    public int getEnteredCount() {
-      return bicycleArrayList.size();
+      return bicycleFromSpecArrayList.size();
    }
+   
+//   @Override
+//   public void ride() {
+//
+//   }
 }

@@ -1,5 +1,6 @@
 package main.bicycles;
 
 public interface BikeRide {
-   void ride(Bicycle bicycle);
+   void ride();
+   //void ride(Bicycle bicycle);
 }
