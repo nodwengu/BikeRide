@@ -35,9 +35,4 @@ public class FunRide {
    public int getEnteredCount() {
       return bicycleFromSpecArrayList.size();
    }
-   
-//   @Override
-//   public void ride() {
-//
-//   }
 }

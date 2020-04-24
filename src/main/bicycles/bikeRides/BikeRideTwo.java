@@ -20,19 +20,5 @@ public class BikeRideTwo implements BikeRide {
       bicycle.accelerate();
    }
    
-//   public void ride(Bicycle bicycle) {
-//      bicycle.accelerate();
-//      bicycle.accelerate();
-//      bicycle.accelerate();
-//      bicycle.accelerate();
-//      bicycle.accelerate();
-//      bicycle.accelerate();
-//      bicycle.accelerate();
-//      bicycle.accelerate();
-//      bicycle.accelerate();
-//      bicycle.accelerate();
-//      bicycle.accelerate();
-//      bicycle.accelerate();
-//   }
 }
 ;

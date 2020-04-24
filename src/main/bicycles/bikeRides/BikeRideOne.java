@@ -14,15 +14,10 @@ public class BikeRideOne implements BikeRide {
       super();
       this.bicycle = bicycle;
    }
-
+   
    public void ride() {
       bicycle.accelerate();
       bicycle.accelerate();
       bicycle.brake();
    }
-   
-//   public void ride(Bicycle bicycle) {
-//      bicycle.accelerate();
-//      bicycle.accelerate();
-//   }
 }

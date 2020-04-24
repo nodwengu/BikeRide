@@ -2,21 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19c6ba26-ee63-4747-b6dd-56550fc8ee76" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/bicycles/specification/BicycleFromSpecTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/bicycles/BicycleType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/bicycles/BicycleType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/bicycles/BikeRide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/bicycles/BikeRide.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/bicycles/bikeRides/BikeRideOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/bicycles/bikeRides/BikeRideOne.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/bicycles/bikeRides/BikeRideThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/bicycles/bikeRides/BikeRideThree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/bicycles/bikeRides/BikeRideTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/bicycles/bikeRides/BikeRideTwo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/bicycles/bikeRides/FunRide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/bicycles/bikeRides/FunRide.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/bicycles/models/BicycleFromSpec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/bicycles/specification/BicycleFromSpec.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/bicycles/bikeRides/BikeRideOneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/bicycles/bikeRides/BikeRideOneTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/bicycles/bikeRides/BikeRideThreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/bicycles/bikeRides/BikeRideThreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/bicycles/bikeRides/BikeRideTwoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/bicycles/bikeRides/BikeRideTwoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/bicycles/bikeRides/FunRideTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/bicycles/bikeRides/FunRideTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/bicycles/models/BicycleFromSpecTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/bicycles/specification/BicycleSpecificationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/bicycles/specification/BicycleSpecificationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
