@@ -28,8 +28,6 @@ public class FunRide {
    public void accept(BicycleFromSpec bicycleFromSpec) {
       if( (bicycleFromSpecArrayList.size() < maxNumberOfBikes) && !(bicycleFromSpecArrayList.contains(bicycleFromSpec)) )
          bicycleFromSpecArrayList.add(bicycleFromSpec);
-      else
-         System.out.println("NotAdded: Enough bicycles or already exists");
    }
    
    public int getEnteredCount() {

@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="19c6ba26-ee63-4747-b6dd-56550fc8ee76" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/bicycles/BikeRide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/bicycles/BikeRide.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/bicycles/bikeRides/BikeRideOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/bicycles/bikeRides/BikeRideOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/bicycles/bikeRides/BikeRideThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/bicycles/bikeRides/BikeRideThree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/bicycles/bikeRides/BikeRideTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/bicycles/bikeRides/BikeRideTwo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/bicycles/bikeRides/FunRide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/bicycles/bikeRides/FunRide.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/bicycles/bikeRides/FunRideTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/bicycles/bikeRides/FunRideTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,22 +202,22 @@
       <screen x="81" y="24" width="1519" height="876" />
     </state>
     <state x="628" y="207" key="FileChooserDialogImpl/81.24.1519.876@81.24.1519.876" timestamp="1587577715472" />
-    <state width="1473" height="237" key="GridCell.Tab.0.bottom" timestamp="1587755241265">
+    <state width="1473" height="237" key="GridCell.Tab.0.bottom" timestamp="1587849898423">
       <screen x="81" y="24" width="1519" height="876" />
     </state>
-    <state width="1473" height="237" key="GridCell.Tab.0.bottom/81.24.1519.876@81.24.1519.876" timestamp="1587755241265" />
-    <state width="1473" height="237" key="GridCell.Tab.0.center" timestamp="1587755241265">
+    <state width="1473" height="237" key="GridCell.Tab.0.bottom/81.24.1519.876@81.24.1519.876" timestamp="1587849898423" />
+    <state width="1473" height="237" key="GridCell.Tab.0.center" timestamp="1587849898420">
       <screen x="81" y="24" width="1519" height="876" />
     </state>
-    <state width="1473" height="237" key="GridCell.Tab.0.center/81.24.1519.876@81.24.1519.876" timestamp="1587755241265" />
-    <state width="1473" height="237" key="GridCell.Tab.0.left" timestamp="1587755241264">
+    <state width="1473" height="237" key="GridCell.Tab.0.center/81.24.1519.876@81.24.1519.876" timestamp="1587849898420" />
+    <state width="1473" height="237" key="GridCell.Tab.0.left" timestamp="1587849898420">
       <screen x="81" y="24" width="1519" height="876" />
     </state>
-    <state width="1473" height="237" key="GridCell.Tab.0.left/81.24.1519.876@81.24.1519.876" timestamp="1587755241264" />
-    <state width="1473" height="237" key="GridCell.Tab.0.right" timestamp="1587755241265">
+    <state width="1473" height="237" key="GridCell.Tab.0.left/81.24.1519.876@81.24.1519.876" timestamp="1587849898420" />
+    <state width="1473" height="237" key="GridCell.Tab.0.right" timestamp="1587849898421">
       <screen x="81" y="24" width="1519" height="876" />
     </state>
-    <state width="1473" height="237" key="GridCell.Tab.0.right/81.24.1519.876@81.24.1519.876" timestamp="1587755241265" />
+    <state width="1473" height="237" key="GridCell.Tab.0.right/81.24.1519.876@81.24.1519.876" timestamp="1587849898421" />
     <state x="328" y="26" key="SettingsEditor" timestamp="1587630986061">
       <screen x="81" y="24" width="1519" height="876" />
     </state>

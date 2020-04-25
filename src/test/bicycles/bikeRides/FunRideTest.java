@@ -17,16 +17,62 @@ class FunRideTest {
    BicycleFromSpec bicycleFromSpec3 = new BicycleFromSpec(tandemBikeSpec);
    BicycleFromSpec bicycleFromSpec4 = new BicycleFromSpec(mountainBikeSpec);
    
+   
    @Test
-   void getCountType() {
-      FunRide funRide = new FunRide(4);
+   void getCountTypeTest() {
+      FunRide funRide = new FunRide(5);
       funRide.accept(bicycleFromSpec1);
       funRide.accept(bicycleFromSpec2);
       funRide.accept(bicycleFromSpec3);
       funRide.accept(bicycleFromSpec4);
       
       Assertions.assertEquals(2, funRide.getCountForType(BicycleType.MountainBike));
-      Assertions.assertEquals(4, funRide.getEnteredCount());
+      Assertions.assertEquals(1, funRide.getCountForType(BicycleType.RoadBike));
+      Assertions.assertEquals(1, funRide.getCountForType(BicycleType.Tandem));
+   }
+   
+   @Test
+   void acceptTest() {
+      FunRide funRide = new FunRide(7);
+      funRide.accept(bicycleFromSpec1);
+      funRide.accept(bicycleFromSpec2);
+      
+      Assertions.assertEquals(2, funRide.getEnteredCount());
+   
+      funRide.accept(bicycleFromSpec3);
+      
+      Assertions.assertEquals(3, funRide.getEnteredCount());
+   }
+   
+   @Test
+   void duplicatesTest() {
+      FunRide funRide = new FunRide(10);
+      funRide.accept(bicycleFromSpec1);
+      funRide.accept(bicycleFromSpec2);
+      Assertions.assertEquals(2, funRide.getEnteredCount());
+   
+      funRide.accept(bicycleFromSpec2);
+   
+      Assertions.assertEquals(2, funRide.getEnteredCount());
+   
+      funRide.accept(bicycleFromSpec3);
+      
+      Assertions.assertEquals(3, funRide.getEnteredCount());
+   }
+   
+   @Test
+   void maxNumberOfBicyclesTest() {
+      FunRide funRide = new FunRide(3);
+      funRide.accept(bicycleFromSpec1);
+      Assertions.assertEquals(1, funRide.getEnteredCount());
+      
+      funRide.accept(bicycleFromSpec2);
+      funRide.accept(bicycleFromSpec3);
+      Assertions.assertEquals(3, funRide.getEnteredCount());
+      
+      funRide.accept(bicycleFromSpec4);
+      
+      Assertions.assertEquals(3, funRide.getEnteredCount());
    }
    
 }
