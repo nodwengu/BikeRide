@@ -1,7 +1,6 @@
-package main.bicycles.bikeRides;
+package main.bicycles.bikeride;
 
 import main.bicycles.Bicycle;
-import main.bicycles.*;
 
 public class BikeRideThree implements BikeRide {
    Bicycle bicycle;

@@ -3,8 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="19c6ba26-ee63-4747-b6dd-56550fc8ee76" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/bicycles/bikeRides/FunRide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/bicycles/bikeRides/FunRide.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/bicycles/BikeRide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/bicycles/bikeride/BikeRide.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/bicycles/bikeRides/BikeRideOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/bicycles/bikeride/BikeRideOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/bicycles/bikeRides/BikeRideThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/bicycles/bikeride/BikeRideThree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/bicycles/bikeRides/BikeRideTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/bicycles/bikeride/BikeRideTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/bicycles/bikeRides/FunRide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/bicycles/bikeride/FunRide.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/bicycles/specification/BicycleFromSpec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/bicycles/specification/BicycleFromSpec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/bicycles/bikeRides/BikeRideOneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/bicycles/bikeRides/BikeRideOneTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/bicycles/bikeRides/BikeRideThreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/bicycles/bikeRides/BikeRideThreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/bicycles/bikeRides/BikeRideTwoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/bicycles/bikeRides/BikeRideTwoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/bicycles/bikeRides/FunRideTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/bicycles/bikeRides/FunRideTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/bicycles/specification/BicycleFromSpecTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/bicycles/specification/BicycleFromSpecTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,24 +63,39 @@
       <recent name="main.bicycles" />
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test.bicycles" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="main.bicycles.bikeride" />
       <recent name="bicycles.specification" />
       <recent name="main.bicycles.specification" />
       <recent name="main.bicycles" />
       <recent name="bicycles.bikeRides" />
-      <recent name="bicycles.models" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="bicycles" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="bicycles" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test.bicycles" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.FunRideTest">
+  <component name="RunManager" selected="JUnit.BicycleFromSpecTest">
+    <configuration name="BicycleFromSpecTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BikeRide" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bicycles.specification.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bicycles.specification" />
+      <option name="MAIN_CLASS_NAME" value="bicycles.specification.BicycleFromSpecTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BikeRideThreeTest.ride" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BikeRide" />
       <extension name="coverage">
@@ -84,21 +108,6 @@
       <option name="MAIN_CLASS_NAME" value="bicycles.bikeRides.BikeRideThreeTest" />
       <option name="METHOD_NAME" value="ride" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BikeRideTwoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BikeRide" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bicycles.bikeRides.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bicycles.bikeRides" />
-      <option name="MAIN_CLASS_NAME" value="bicycles.bikeRides.BikeRideTwoTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -152,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BicycleFromSpecTest" />
         <item itemvalue="JUnit.FunRideTest" />
         <item itemvalue="JUnit.FunRideTest.getCountType" />
         <item itemvalue="JUnit.BikeRideThreeTest.ride" />
         <item itemvalue="JUnit.BikeRideTwoTest.ride" />
-        <item itemvalue="JUnit.BikeRideTwoTest" />
       </list>
     </recent_temporary>
   </component>
@@ -186,10 +195,10 @@
       <screen x="81" y="24" width="1519" height="876" />
     </state>
     <state x="653" y="162" key="#com.intellij.ide.util.MemberChooser/81.24.1519.876@81.24.1519.876" timestamp="1587205468309" />
-    <state x="598" y="310" width="484" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1587753592742">
+    <state x="598" y="310" width="484" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1588587169765">
       <screen x="81" y="24" width="1519" height="876" />
     </state>
-    <state x="598" y="310" width="484" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/81.24.1519.876@81.24.1519.876" timestamp="1587753592742" />
+    <state x="598" y="310" width="484" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/81.24.1519.876@81.24.1519.876" timestamp="1588587169765" />
     <state x="575" y="24" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587494505887">
       <screen x="81" y="24" width="1519" height="876" />
     </state>
@@ -202,30 +211,30 @@
       <screen x="81" y="24" width="1519" height="876" />
     </state>
     <state x="628" y="207" key="FileChooserDialogImpl/81.24.1519.876@81.24.1519.876" timestamp="1587577715472" />
-    <state width="1473" height="237" key="GridCell.Tab.0.bottom" timestamp="1587849898423">
+    <state width="1473" height="207" key="GridCell.Tab.0.bottom" timestamp="1588597839553">
       <screen x="81" y="24" width="1519" height="876" />
     </state>
-    <state width="1473" height="237" key="GridCell.Tab.0.bottom/81.24.1519.876@81.24.1519.876" timestamp="1587849898423" />
-    <state width="1473" height="237" key="GridCell.Tab.0.center" timestamp="1587849898420">
+    <state width="1473" height="207" key="GridCell.Tab.0.bottom/81.24.1519.876@81.24.1519.876" timestamp="1588597839553" />
+    <state width="1473" height="207" key="GridCell.Tab.0.center" timestamp="1588597839553">
       <screen x="81" y="24" width="1519" height="876" />
     </state>
-    <state width="1473" height="237" key="GridCell.Tab.0.center/81.24.1519.876@81.24.1519.876" timestamp="1587849898420" />
-    <state width="1473" height="237" key="GridCell.Tab.0.left" timestamp="1587849898420">
+    <state width="1473" height="207" key="GridCell.Tab.0.center/81.24.1519.876@81.24.1519.876" timestamp="1588597839553" />
+    <state width="1473" height="207" key="GridCell.Tab.0.left" timestamp="1588597839553">
       <screen x="81" y="24" width="1519" height="876" />
     </state>
-    <state width="1473" height="237" key="GridCell.Tab.0.left/81.24.1519.876@81.24.1519.876" timestamp="1587849898420" />
-    <state width="1473" height="237" key="GridCell.Tab.0.right" timestamp="1587849898421">
+    <state width="1473" height="207" key="GridCell.Tab.0.left/81.24.1519.876@81.24.1519.876" timestamp="1588597839553" />
+    <state width="1473" height="207" key="GridCell.Tab.0.right" timestamp="1588597839553">
       <screen x="81" y="24" width="1519" height="876" />
     </state>
-    <state width="1473" height="237" key="GridCell.Tab.0.right/81.24.1519.876@81.24.1519.876" timestamp="1587849898421" />
+    <state width="1473" height="207" key="GridCell.Tab.0.right/81.24.1519.876@81.24.1519.876" timestamp="1588597839553" />
     <state x="328" y="26" key="SettingsEditor" timestamp="1587630986061">
       <screen x="81" y="24" width="1519" height="876" />
     </state>
     <state x="328" y="26" key="SettingsEditor/81.24.1519.876@81.24.1519.876" timestamp="1587630986061" />
-    <state x="501" y="277" key="com.intellij.ide.util.TipDialog" timestamp="1587660534112">
+    <state x="501" y="277" key="com.intellij.ide.util.TipDialog" timestamp="1588593508636">
       <screen x="81" y="24" width="1519" height="876" />
     </state>
-    <state x="501" y="277" key="com.intellij.ide.util.TipDialog/81.24.1519.876@81.24.1519.876" timestamp="1587660534112" />
+    <state x="501" y="277" key="com.intellij.ide.util.TipDialog/81.24.1519.876@81.24.1519.876" timestamp="1588593508636" />
     <state x="517" y="345" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1587248800576">
       <screen x="81" y="24" width="1519" height="876" />
     </state>

@@ -1,10 +1,8 @@
-package main.bicycles.bikeRides;
+package main.bicycles.bikeride;
 
-import main.bicycles.BikeRide;
 import main.bicycles.specification.BicycleFromSpec;
 import main.bicycles.BicycleType;
 
-import javax.swing.*;
 import java.util.ArrayList;
 
 public class FunRide {

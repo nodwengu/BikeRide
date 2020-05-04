@@ -1,8 +1,7 @@
 package bicycles.bikeRides;
 
-import main.bicycles.bikeRides.BikeRideOne;
 //import org.junit.Before;
-import main.bicycles.bikeRides.BikeRideTwo;
+import main.bicycles.bikeride.BikeRideTwo;
 import main.bicycles.models.MountainBike;
 import main.bicycles.models.RoadBike;
 import main.bicycles.models.Tendem;

@@ -1,6 +1,5 @@
 package main.bicycles.specification;
 
-import main.bicycles.BicycleBase;
 import main.bicycles.BicycleType;
 
 public class BicycleFromSpec {
@@ -14,4 +13,13 @@ public class BicycleFromSpec {
    public BicycleType getBicycleType() {
       return bicycleSpecification.getBicycleType();
    }
+   
+   public int getAccelarationSpeed() {
+      return bicycleSpecification.getAccelerationSpeed();
+   }
+   
+   public int getBrakeSpeed() {
+      return bicycleSpecification.getBrakeSpeed();
+   }
+   
 }

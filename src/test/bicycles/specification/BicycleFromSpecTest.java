@@ -1,46 +1,34 @@
 package bicycles.specification;
 
+import main.bicycles.BicycleType;
+import main.bicycles.specification.BicycleSpecification;
+import main.bicycles.Bicycle;
+import main.bicycles.specification.BicycleFromSpec;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.Assertions;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class BicycleFromSpecTest {
+   BicycleSpecification mountainBikeSpec = new BicycleSpecification(5, 3, BicycleType.MountainBike);
+   BicycleSpecification roadBikeSpec = new BicycleSpecification(11, 4, BicycleType.RoadBike);
+   BicycleSpecification tandemBikeSpec = new BicycleSpecification(12, 7, BicycleType.Tandem);
    
-//   @Test
-//   protected void getAccelerationSpeed() {
-//      // MountainBike
-//      BicycleSpecification mountainBikeSpec = new BicycleSpecification(5, 3);
-//      Bicycle mountainBike = new BicycleFromSpec(mountainBikeSpec);
-//
-//      System.out.println(mountainBike instanceof Bicycle);
-//      // use one of your classes that implements BikeRide
-//      BikeRideOne mBikeRide = new BikeRideOne(mountainBike);
-//      //mBikeRide.ride();
-//      mBikeRide.ride();
-//
-//      assertEquals(5, mountainBikeSpec.getAccelerationSpeed());
-//
-//      assertEquals(3, mountainBikeSpec.getBrakeSpeed());
-//
-//      assertEquals(null, mountainBikeSpec.getBicycleType());
-//
-//   }
-//
-//   @Test
-//   protected void testing() {
-//      // RoadBike
-//      BicycleType bicycleType = BicycleType.RoadBike;
-//      BicycleSpecification roadBikeSpec = new BicycleSpecification(11, 4, bicycleType);
-//      Bicycle roadBike = new BicycleFromSpec(roadBikeSpec);
-//
-//      // use one of your classes that implements BikeRide
-//      BikeRideTwo rBikeRide = new BikeRideTwo(roadBike);
-//      //rBikeRide.ride();
-//      rBikeRide.ride();
-//
-//      assertEquals(11, roadBikeSpec.getAccelerationSpeed());
-//
-//      assertEquals(4, roadBikeSpec.getBrakeSpeed());
-//
-//      assertEquals(BicycleType.RoadBike, roadBikeSpec.getBicycleType());
-//
-//   }
+   BicycleFromSpec bicycleFromSpec1 = new BicycleFromSpec(mountainBikeSpec);
+   BicycleFromSpec bicycleFromSpec2 = new BicycleFromSpec(roadBikeSpec);
+   BicycleFromSpec bicycleFromSpec3 = new BicycleFromSpec(tandemBikeSpec);
+   
+   @Test
+   protected void getAccelerationSpeed() {
+      Assertions.assertEquals(5, bicycleFromSpec1.getAccelarationSpeed());
+      Assertions.assertEquals(11, bicycleFromSpec2.getAccelarationSpeed());
+      Assertions.assertEquals(12, bicycleFromSpec3.getAccelarationSpeed());
+   }
+
+   @Test
+   protected void getBrakeSpeed() {
+      Assertions.assertEquals(3, bicycleFromSpec1.getBrakeSpeed());
+      Assertions.assertEquals(4, bicycleFromSpec2.getBrakeSpeed());
+      Assertions.assertEquals(7, bicycleFromSpec3.getBrakeSpeed());
+   }
 }

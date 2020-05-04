@@ -1,16 +1,15 @@
-package main.bicycles.bikeRides;
+package main.bicycles.bikeride;
 
 import main.bicycles.Bicycle;
-import main.bicycles.BikeRide;
 
-public class BikeRideTwo implements BikeRide {
+public class BikeRideOne implements BikeRide {
    Bicycle bicycle;
    
-   public BikeRideTwo() {
+   public BikeRideOne() {
       super();
    }
    
-   public BikeRideTwo(Bicycle bicycle) {
+   public BikeRideOne(Bicycle bicycle) {
       super();
       this.bicycle = bicycle;
    }
@@ -18,7 +17,6 @@ public class BikeRideTwo implements BikeRide {
    public void ride() {
       bicycle.accelerate();
       bicycle.accelerate();
+      bicycle.brake();
    }
-   
 }
-;

@@ -3,7 +3,7 @@ package bicycles.bikeRides;
 import main.bicycles.specification.BicycleFromSpec;
 import main.bicycles.specification.BicycleSpecification;
 import main.bicycles.BicycleType;
-import main.bicycles.bikeRides.FunRide;
+import main.bicycles.bikeride.FunRide;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -17,7 +17,6 @@ class FunRideTest {
    BicycleFromSpec bicycleFromSpec3 = new BicycleFromSpec(tandemBikeSpec);
    BicycleFromSpec bicycleFromSpec4 = new BicycleFromSpec(mountainBikeSpec);
    
-   
    @Test
    void getCountTypeTest() {
       FunRide funRide = new FunRide(5);
@@ -26,9 +25,21 @@ class FunRideTest {
       funRide.accept(bicycleFromSpec3);
       funRide.accept(bicycleFromSpec4);
       
+      
       Assertions.assertEquals(2, funRide.getCountForType(BicycleType.MountainBike));
       Assertions.assertEquals(1, funRide.getCountForType(BicycleType.RoadBike));
       Assertions.assertEquals(1, funRide.getCountForType(BicycleType.Tandem));
+   
+      Assertions.assertEquals(5, bicycleFromSpec1.getAccelarationSpeed());
+      Assertions.assertEquals(11, bicycleFromSpec2.getAccelarationSpeed());
+      Assertions.assertEquals(12, bicycleFromSpec3.getAccelarationSpeed());
+      Assertions.assertEquals(5, bicycleFromSpec4.getAccelarationSpeed());
+   
+      Assertions.assertEquals(3, bicycleFromSpec1.getBrakeSpeed());
+      Assertions.assertEquals(4, bicycleFromSpec2.getBrakeSpeed());
+      Assertions.assertEquals(7, bicycleFromSpec3.getBrakeSpeed());
+      Assertions.assertEquals(3, bicycleFromSpec4.getBrakeSpeed());
+      
    }
    
    @Test

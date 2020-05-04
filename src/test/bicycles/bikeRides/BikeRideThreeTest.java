@@ -1,7 +1,6 @@
 package bicycles.bikeRides;
 
-import main.bicycles.bikeRides.BikeRideThree;
-import main.bicycles.bikeRides.BikeRideTwo;
+import main.bicycles.bikeride.BikeRideThree;
 import main.bicycles.models.MountainBike;
 import main.bicycles.models.RoadBike;
 import main.bicycles.models.Tendem;
